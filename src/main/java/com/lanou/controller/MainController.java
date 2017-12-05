@@ -18,6 +18,8 @@ public class MainController {
     }
 
     // 定位到登录页
+
+    // 定位到登录页111
     @RequestMapping(value = "/login")
     public String loginPage(){
         if (SecurityUtils.getSubject().isAuthenticated()){
